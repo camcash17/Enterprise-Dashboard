@@ -1,0 +1,6 @@
+create table Inventory (
+    ID serial,
+    BRAND_NAME VARCHAR(100) NOT NULL,
+    COUNT INTEGER NOT NULL,
+    CATEGORY_ID INTEGER NOT NULL
+);
